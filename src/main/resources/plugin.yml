@@ -1,0 +1,7 @@
+name: Tecknix-ClickDelay-API
+version: ${project.version}
+main: com.tecknix.impl.ClickDelayImpl
+authors: [ Tecknix Software Development Team ]
+description: Bukkit Click delay API for Tecknix Client.
+website: https://tecknix.com
+
