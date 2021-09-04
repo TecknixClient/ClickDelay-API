@@ -21,24 +21,12 @@ For people who wish to customize or add to our API for their server.
 3: Get programming!
 ```
 
-## Code:
+## Developers:
 
-An overview of the code structure and usages.
-
-- Notifications:
+- Usage:
 ```java
 //To initialize the api you must run this code in your plugin.
 new TCClickDelayAPI(this).setDisabled(true);
 ```
-
-- Cps Cooldown:
-```java
-//Declare a player that will receive the packet.
-final Player player = Bukkit.getPlayer("Frostei");
-//Send the packet to the player.
-TecknixAPI.getInstance().sendPacket(player, new TCPacketCpsCooldown(true);
-//Note "true" disables the cooldown and "false" enables it!
-```
-
 
 
